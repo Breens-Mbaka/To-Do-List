@@ -1,12 +1,25 @@
-#show-contact {
-    display: none;
+.container {
+    text-align: center;
+    margin-top: 40px;
 }
 
-.contact {
-    cursor: pointer;
-    color: #0088cc;
+#add-task {
+    margin-top: 30px;
 }
-  
-.contact:hover {
-    text-decoration: underline;
+
+#add-button {
+    margin-top: 20px;
+}
+
+.added-tasks {
+    margin-top: 30px;
+}
+
+span {
+    color: rgb(49, 165, 49);
+    font-size: 12px;
+}
+
+.added-tasks .tasks {
+    margin-top: 40px;
 }

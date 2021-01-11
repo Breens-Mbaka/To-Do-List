@@ -1,5 +1,9 @@
+//user-interface logic
 $(document).ready(function(event) {
-  event.preventDefault();
+  $(".form").submit(function(event) {
+    event.preventDefault();
 
-  
+    //get the data input from ui
+    var taskAdded = document.getElementById("add-task").value();
+  });
 }); 

@@ -20,6 +20,12 @@ span {
     font-size: 12px;
 }
 
-.added-tasks .tasks {
+.task {
+    color: black;
+    font-size: 24px;
+}
+
+ul {
+    list-style-position: inside;
     margin-top: 40px;
 }

@@ -8,7 +8,10 @@ $(document).ready(function(event) {
     $(".added-tasks").show()
     
     $("ul#tasks").append("<li><span class='task'>" + taskAdded+ "</span></li>")
-    
+    $(".task").click(function() {
+      $(this).css("text-decoration", "line-through");
+    });
+
     $("#add-task").val("");
   });
 }); 

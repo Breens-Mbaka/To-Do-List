@@ -5,7 +5,7 @@ $(document).ready(function(event) {
 
     //get the data input from ui
     var taskAdded = $("#add-task").val();
-    console.log(taskAdded);
+    $(".added-tasks").show()
     
     $("ul#tasks").append("<li><span class='task'>" + taskAdded+ "</span></li>")
     

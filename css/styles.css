@@ -13,6 +13,7 @@
 
 .added-tasks {
     margin-top: 30px;
+    display: none;
 }
 
 span {
